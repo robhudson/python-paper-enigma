@@ -295,7 +295,7 @@ if __name__ == '__main__':
     e = Enigma()
 
     if '-rj' in sys.argv:
-        e.generate_rejewski()
+        e.generate_all_rejewski()
     elif '-zg' in sys.argv:
         e.generate_zygalski()
 
