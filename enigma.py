@@ -16,7 +16,7 @@ class Enigma:
     # Rotors based on paper enigma used in class...
     # To encode what the rotors are doing, I'm making a map of position down the
     # left side of the rotor which maps to the position down the right side of
-    # the rotor with the matching letter.
+
     rotors = [
         [20, 22, 24, 6, 0, 3, 5, 15, 21, 25, 1, 4, 2, 10, 12, 19, 7, 23, 18, 11, 17, 8, 13, 16, 14, 9],
         [0, 9, 15, 2, 25, 22, 17, 11, 5, 1, 3, 10, 14, 19, 24, 20, 16, 6, 4, 13, 7, 23, 12, 8, 21, 18],
